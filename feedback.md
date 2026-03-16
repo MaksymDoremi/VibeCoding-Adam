@@ -6,104 +6,87 @@
 
 ---
 
-## Hodina 1 – Co je programování
-**Cíl:** Porozumět, že programování = instrukce  
-**Výstup:** Jednoduchá interaktivní stránka (Clicker)
+## Hodina 1 – Příprava a Setup Prostředí
+**Cíl:** Nainstalovat a nastavit všechny potřebné nástroje (VS Code, GitHub, Vercel)  
+**Výstup:** Připravené vývojové prostředí, přihlášení do všech služeb
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ~60 minut
-- **Rozdíl:** Bez rozdílu (s podporou lektora zvládnuto v čase)
+### ⏰ Časový pocit
+**V pohodě** – Čas se dobře využil, bez stresu
 
-### 📊 Složitost
-- Velmi snadné ⭐
-- Snadné ⭐⭐
-- Středně těžké ⭐⭐⭐ ✓
-- Těžké ⭐⭐⭐⭐
-- Velmi těžké ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Spíše se řešila organizace a příprava – zajímavé, ale maximální zábava se mi neužila
 
 ### ✅ Co se mi líbilo
-- VibeCoding koncept a přístup k výuce
-- Copilot (Claude Haiku 4.5) pochopil zadání a otázky
-- Vytvořený program fungoval perfektně bez chyb
-- Motivující natolik, že jsem chtěl/a přidat další prvky už za hranicemi zadání
+- Systematické postupné stahování a nastavování
+- Podpora lektora během instalací
+- Jasné kroky pro login (GitHub, Vercel, VS Code)
+- Po všem, co je nainstalováno, je jasný pocit "hotovo!"
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-- Lépe vysvětlit základní pojmy (terminál, API, jak spolu souvisí)
-- Podrobnější vysvětlení toho, co jednotlivé aplikace (VS Code, GitHub, Vercel, atd.) dělají a jak se používají
-- Snazší proces instalace a přípravy prostředí (stahování aplikací bylo komplikované)
+- Více vysvětlení, co jednotlivé aplikace dělají a proč je potřebují
+- Visuální průvodce (screenshots) pro každý krok instalace
+- Alternativní řešení, kdyby něco selhalo (fallback plány)
+- Vysvětlení, co je GitHub, Vercel a proč se používají
 
 ### ⚠️ Problémy které jsem měl/a
-- Pochopení pojmů a aplikací na začátku (terminál, API, struktury projektů)
-- Složitost stahování a nastavování všech potřebných aplikací
-- Při práci s terminálem chvílemi nejasnost, co se děje "za kulisami"
-- **ŘEŠENÍ:** S podporou lektora vše jednoduše zvládnuto
+- Stahování mělo někdy chybu (selhání internetového připojení)
+- Login do Vercelu nebyl intuitivní (několikrát jsem se zabloudil)
+- Porozumění, proč přesně ty 3 služby (VS Code, GitHub, Vercel)
+- Terminal na začátku strašidlo – nebylo jasné, co se tam děje
 
 ### 💡 Co bylo srozumitelné / lehké
-- Samotný program vytvořený copilotem
-- UI a interakce (tlačítker, počítadlo)
-- Jak se program zobrazuje a funguje v prohlížeči
-- ChatGPT/Copilot zadávání úkolů a prompty
+- Jednoduchý postup krok za krokem
+- Lektoři věděli, jak řešit problémy
+- Po nainstalování VS Code jsem viděl hned výsledek
+- GitHub login byl snadný
 
 ### 📝 Poznámky
-- Copilot měl Sometimes menší chyby v pravopisu, ale nic zásadního
-- Nemusel jsem vůbec psát vlastní kód - všechno generoval Copilot
-- Myslím si, že 13leté děti bez zkušenosti by měly možná větší problémy s pochopením, rád bych vidět více explicitního vysvětlování základů
-- Velmi mě bavilo, že jsem mohl/a experimentovat a přidávat vlastní prvky
-
-- ok, super, potvruji, 123456
+- Myslím si, že 13leté děti by měly velké problémy s tímhle setupem bez lektora – je to dost komplexní
+- Bylo by super, kdyby existoval předpřipravený VM/image s vším už nainstalovaným
+- S lektorem to ale šlo bez větších problémů
+- **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
 
 ---
 
-## Hodina 2 – AI jako parťák (vibe coding)
-**Cíl:** Naučit se mluvit s AI tak, aby pomáhala  
-**Výstup:** Rozšířený Clicker (achievement / efekty)
+## Hodina 2 – Tvorba Clicker Aplikace + Nasazení na Vercel
+**Cíl:** Vytvořit interaktivní aplikaci s Copilotem, pochopit VibeCoding, nasadit ji na web  
+**Výstup:** Fungující Clicker hra v prohlížeči + aplikace na Vercelu
 
-tady byl Maks
+### ⏰ Časový pocit
+**Zbyl čas nazbyt** – Hodina se dobře zvládla a ještě zůstal prostor na experimenty
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
-- **Rozdíl:** ___ minut
-
-### 📊 Složitost
-- Velmi snadné ⭐
-- Snadné ⭐⭐
-- Středně těžké ⭐⭐⭐
-- Těžké ⭐⭐⭐⭐
-- Velmi těžké ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Maximální zábava – skvělý pocit z vytváření a vidění výsledků 
 
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-- 
-```
+- Koncept VibeCoding – Copilot pochopil zadání a otázky bezpečně
+- Vytvořený Clicker program fungoval perfektně bez jakýchkoliv chyb (kromě při nasazení)
+- Velmi motivující – chtěl/a jsem přidávat vlastní prvky (upgrades, sound, apod.) i za hranicemi zadání
+- Okamžitý výsledek v prohlížeči byl skvělý pro motivaci
+- Nasazení na Vercel bylo jednoduché a aplikace okamžitě fungovala na internetu
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-- 
-```
+- Více vysvětlení, jak React komponenty fungují (ačkoliv to nebylo nutné pro tuto úroveň)
+- Bonus: GitActions/CI pipeline pro automatické deployování (advanced)
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-- 
-```
+- Při prvním nasazení na Vercel se objevily syntax errors (menší chyby v kódu)
+- **ŘEŠENÍ:** Copilot je okamžitě identifikoval a opravil
+- Po opravě vše fungovalo dokonale na Vercelu bez dalších problémů
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-- 
-```
+- Samotný Clicker program – UI a logika fungovala intuitivně
+- Jak se program zobrazuje a chová v prohlížeči
+- Copilot interakce – jednoduchý chat pro popis požadavků
+- Nasazení na Vercel – kliku několik málo tlačítek a hotovo
+- Vidět živou aplikaci na internetu (https://...) bylo skvělé
 
 ### 📝 Poznámky
-```
-```
+- Nemusel jsem psát téměř žádný vlastní kód – všechno generoval Copilot
+- Syntax errors na Vercelu byly drobné a velmi snadno opravitelné
+- Copilot měl občas menší chyby v pravopisu, ale nic zásadního
+- Byla to nejzábavnější část dosavadního učení – vidět okamžitý výsledek a moct si ho ukazovat
+- **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
 
 ---
 
