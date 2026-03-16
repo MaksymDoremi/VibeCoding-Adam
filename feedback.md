@@ -51,6 +51,8 @@
 - Myslím si, že 13leté děti bez zkušenosti by měly možná větší problémy s pochopením, rád bych vidět více explicitního vysvětlování základů
 - Velmi mě bavilo, že jsem mohl/a experimentovat a přidávat vlastní prvky
 
+- ok, super, potvruji, 123456
+
 ---
 
 ## Hodina 2 – AI jako parťák (vibe coding)
