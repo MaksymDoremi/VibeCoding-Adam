@@ -59,6 +59,8 @@
 **Cíl:** Naučit se mluvit s AI tak, aby pomáhala  
 **Výstup:** Rozšířený Clicker (achievement / efekty)
 
+tady byl Maks
+
 ### ⏱️ Čas
 - **Plánovaný čas:** 60 minut
 - **Reálný čas:** ___ minut
