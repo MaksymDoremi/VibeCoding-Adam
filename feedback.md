@@ -299,40 +299,28 @@ Velmi vysoká – postupné rozšiřování funkčnosti bylo motivující, prost
 **Cíl:** Ukázat, že i hra je jen logika + stav  
 **Výstup:** Hratelná Snake hra v prohlížeči
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
-
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
-
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-```
+- Velmi jednoduché – celá hra fungovala hned na první pokus bez chyb
+- Vysvětlení, které bylo, bylo smysluplné a dobré (had = pole souřadnic, game loop přes setInterval)
+- Koncept gridu (had jako pole souřadnic) byl srozumitelný a intuitivní
+- Projekt se dal rozjet rychle – scaffold + kompletní hra najednou
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-```
+- Málo vysvětlování – mohlo by být víc (ale to co bylo stačilo)
+- Hodina by se určitě mohla spojit s jinou lekcí (např. hodina 7 – remix), protože samotná Snake byla rychlá
+- Případně rozšířit o power-upy nebo obtížnosti, aby se zaplnil čas
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-```
+- Žádné zásadní problémy – vše fungovalo bez komplikací
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-```
+- Grid koncept – had je jen pole souřadnic [řádek, sloupec]
+- Celkově velmi lehká hodina
+- Úprava parametrů (rychlost) byla jednoduchá a okamžitě viditelná
 
 ### 📝 Poznámky
-```
-```
+- Bavilo mě to, ale méně než clicker/remix – Snake je jednodušší a méně kreativní
+- Doporučení: spojit s hodinou 7 jako jednu delší lekci, nebo přidat rozšíření (fázový přístup, obtížnosti)
 
 ---
 
