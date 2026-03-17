@@ -217,19 +217,14 @@ Velmi vysoká – postupné rozšiřování funkčnosti bylo motivující, prost
 **Cíl:** Pochopit API jako zdroj dat  
 **Výstup:** Sbírka vtipů – jokes-app s vlastním API
 
-### ⏰ Časový pocit
-**Zbyl čas nazbyt** – Vše se stihlo + bonusy (achievementy, komentáře)
-
-### 🎮 Zábava
-Maximální zábava – kreativní výběr tématu (vtipová sbírka), prostor pro vlastní nápady
 
 ### ✅ Co se mi líbilo
 - Copilot neměl žádné problémy – vše fungovalo na první pokus
-- Opět prostor pro kreativitu (výběr tématu: vtipová sbírka místo blogu)
+- Opět prostor pro kreativitu (vtipová sbírka místo blogu)
 - Achievementy za liky a komentáře ke vtipům – bonusy nad rámec plánu
 - Jasná metafora restaurace/kuchyně pro vysvětlení FE↔BE
 
-### ❌ Co mi nechybělo / Co bych přidal/a
+### ❌ Co bych přidal/a
 - Bude na místě vysvětlení od lektora – propojení frontend↔backend je klíčový koncept
 - Společné sdílení prací mezi studenty – ukázat si navzájem co kdo vytvořil
 
@@ -238,14 +233,12 @@ Maximální zábava – kreativní výběr tématu (vtipová sbírka), prostor p
 
 ### 💡 Co bylo srozumitelné / lehké
 - fetch() volání – intuitivní, "pošli požadavek, dostaneš data"
-- GET vs POST – srozumitelné díky příkladům
 - Mock API pro lokální vývoj – pochopitelné proč je potřeba
 
 ### 📝 Poznámky
 - Celkově bezproblémová hodina. Copilot generoval kód spolehlivě
 - Prostor pro kreativitu byl dostatečný
 - Doporučuji lektorům doplnit vysvětlení konceptu API + společné sdílení výsledků mezi studenty
-- **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
 
 ---
 
