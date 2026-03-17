@@ -215,42 +215,37 @@ Velmi vysoká – postupné rozšiřování funkčnosti bylo motivující, prost
 
 ## Hodina 6 – První „backend" (na Vercelu)
 **Cíl:** Pochopit API jako zdroj dat  
-**Výstup:** Mini blog / seznam dat z API
+**Výstup:** Sbírka vtipů – jokes-app s vlastním API
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
+### ⏰ Časový pocit
+**Zbyl čas nazbyt** – Vše se stihlo + bonusy (achievementy, komentáře)
 
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Maximální zábava – kreativní výběr tématu (vtipová sbírka), prostor pro vlastní nápady
 
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-```
+- Copilot neměl žádné problémy – vše fungovalo na první pokus
+- Opět prostor pro kreativitu (výběr tématu: vtipová sbírka místo blogu)
+- Achievementy za liky a komentáře ke vtipům – bonusy nad rámec plánu
+- Jasná metafora restaurace/kuchyně pro vysvětlení FE↔BE
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-```
+- Bude na místě vysvětlení od lektora – propojení frontend↔backend je klíčový koncept
+- Společné sdílení prací mezi studenty – ukázat si navzájem co kdo vytvořil
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-```
+- Žádné technické problémy – Copilot vše zvládl bez chyb
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-```
+- fetch() volání – intuitivní, "pošli požadavek, dostaneš data"
+- GET vs POST – srozumitelné díky příkladům
+- Mock API pro lokální vývoj – pochopitelné proč je potřeba
 
 ### 📝 Poznámky
-```
-```
+- Celkově bezproblémová hodina. Copilot generoval kód spolehlivě
+- Prostor pro kreativitu byl dostatečný
+- Doporučuji lektorům doplnit vysvětlení konceptu API + společné sdílení výsledků mezi studenty
+- **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
 
 ---
 
