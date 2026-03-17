@@ -340,40 +340,31 @@ Velmi vysoká – postupné rozšiřování funkčnosti bylo motivující, prost
 **Cíl:** Pochopit rozdíl mezi frontendem a backendem  
 **Výstup:** Vlastní API běžící na Renderu
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
-
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
-
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-```
+- Copilot napsal celý Express server na první pokus bez chyb – API fungovalo lokálně i na Renderu
+- Koncept API (GET/POST/DELETE) dával smysl – analogie s restaurací (frontend = stůl, backend = kuchyně) byla srozumitelná
+- Testování přes curl bylo přímočaré – viditelný výsledek v JSON formátu
+- Celý backend se vešel do jednoho souboru (~70 řádků) – žádná zbytečná složitost
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-```
+- V celku spíše nezajímavá hodina – vše se děje v backendu, jen malá ukázka na konci funkčnosti (JSON)
+- Přidat víc vizuálních ukázek – ne jen JSON v terminálu, ale třeba jednoduchou webovou stránku, která data zobrazí
+- Doporučení: mohlo by se tohle spojit s hodinou 10 do jedné větší lekce
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-```
+- Nemohl jsem připojit Maksymův repozitář k Renderu – musel jsem vytvořit vlastní repo na GitHubu
+- Delší čekání na build na Renderu (než se API nasadí a spustí)
+- První pokus o deploy selhal kvůli špatnému repozitáři (nextjs-boilerplate místo items-api)
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-```
+- Koncept API (GET/POST/DELETE) dával smysl
+- Psaní kódu v Express bylo jednoduché – Copilot to zvládl sám
+- Testování endpointů přes curl – jasný vstup → výstup
 
 ### 📝 Poznámky
-```
-```
+- Střední složitost – pochopení konceptu backend vs frontend vyžaduje trochu přemýšlení
+- Hodina by mohla být zajímavější s vizuálnějším výstupem – samotný JSON je pro studenty méně motivující než viditelná aplikace
+- Deploy na Render fungoval, ale proces je méně intuitivní než Vercel
 
 ---
 
