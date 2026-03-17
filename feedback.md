@@ -94,45 +94,40 @@ Maximální zábava – skvělý pocit z vytváření a vidění výsledků
 **Cíl:** Práce s daty v aplikaci  
 **Výstup:** ToDo app s uložením do localStorage
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
-- **Rozdíl:** ___ minut
+### ⏰ Časový pocit
+**Bez měření** – Čas nebyl sledován
 
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Velmi vysoká – postupné rozšiřování funkčnosti bylo motivující, prostor pro kreativitu
 
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-- 
-```
+- localStorage lehce pochopeno
+- Copilot dobře vysvětloval klíčové kusy kódu (useState, JSON.parse/stringify)
+- Fázový přístup: nejdříve logika bez storage → pak storage → filtrování → achievement (podle copilota)
+- Achievement systém s API kočkou měl vysokou engage value
+- Prostor pro vylepšování umožnil kreativitu v rámci zadaného úkolu
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-- 
-```
+- Zahrnout DevTools inspection localStorage do lekce
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-- 
-```
+- localStorage nejprve nefungoval – Copilot použil useEffect přístup s timing bugem
+- **ŘEŠENÍ:** Lazy initialization v useState fungovala správně
+- Duplicitní deklarace `updateTodos` vedla na syntaktickou chybu - cpoilot ale snadně vyřešil
+- Copilot má zvýšené chyby s češtinou v komentářích, ale kód většinou fungoval
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-- 
-```
+- CRUD operace – intuitivní implementace
+- Array methods (filter, map) – logika byla jasná
+- API integrace – transfer z Hodiny 2 bez problému
+- State management a re-render cyklus – viditelný výsledek motivuje
 
 ### 📝 Poznámky
-```
-```
+- Fáze 1 (bez storage) je kritická – ukázala proč storage vůbec potřebujeme
+- Iterativní opravy: jen malé chyby, nikdy zásadní
+- Stihlo se pokrýt základnu i Phase 3 improvement – časový management se vydařil
+- VibeCoding princip se potvrdil: Copilot generuje kód, student se fokusuje na logiku
+- **Důležité:** Doporučení pracovat rovnou ve Vercelu (je ale složitější, hlavně příprava)
 
 ---
 
