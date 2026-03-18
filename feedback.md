@@ -177,41 +177,32 @@ Velmi vysoká – kvíz je interaktivní a zábavný způsob, jak se něco nauč
 **Cíl:** Pochopit, že data mohou být sdílená mezi lidmi  
 **Výstup:** Leaderboard aplikace napojená na API
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
 
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Vysoká – leaderboard přidává soutěživost, vylepšování kvízu na konci hodiny bylo velmi zábavné
 
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-```
+- Kontinuita – Copilot pracoval s kvízem z minulé hodiny
+- Vylepšování kvízu na konci hodiny (nové otázky, clicker achievementy, úvodní obrazovka) bylo zábavné a kreativní
+- Koncept API jako „sdílené nástěnky" je pochopitelný i bez technických znalostí
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-```
+- Copilot udělal většinu práce najednou – může vzniknout dojem, že „to samo běží" a student nerozumí co se děje
+- Copilot se při vytváření často ptal na potvrzení příkazu (allow) – pro děti to může být matoucí, pokud nevědí co potvrzují
+- Návrh: **společné ukázání prací studentů online (sdílení obrazovek)** – studenti by mohli ukázat své kvízy a leaderboard výsledky, což by zvýšilo motivaci a soutěživost
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-```
+- Copilot pracuje přes vite build – při vytváření leaderboardu mu to zprvu docela trvalo (CSS nesting chyby, duplicitní keyframes)
+- Leaderboard nefungoval lokálně – API endpoint je serverless (Vercel), muselo se přidat mock API do Vite configu
+- CSS chyby (duplicitní @keyframes, nezavřené bloky) – Copilot je vytvořil a pak musel sám opravovat
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-```
+- Rozdíl localStorage vs. API – „tvůj sešit vs. nástěnka ve třídě" – pochopitelná analogie
+- Přidávání nových funkcí (achievementy, úvodní obrazovka) – VibeCoding princip funguje dobře
 
 ### 📝 Poznámky
-```
-```
-
+- Hodina se dá stihnout rychleji než za 60 minut – zbylý čas je ideální pro individuální vylepšování nebo pro sdílení práce
+- **Doporučení pro lektory:** Zbylý čas využít na sdílení prací mezi studenty – motivace přes soutěživost
 ---
 
 ## Hodina 6 – První „backend" (na Vercelu)
