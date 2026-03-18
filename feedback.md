@@ -45,6 +45,7 @@ Spíše se řešila organizace a příprava – zajímavé, ale maximální záb
 - Bylo by super, kdyby existoval předpřipravený VM/image s vším už nainstalovaným
 - S lektorem to ale šlo bez větších problémů
 - **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
+- Vysvětlit fungování copilota podrobně
 
 ---
 
@@ -87,6 +88,7 @@ Maximální zábava – skvělý pocit z vytváření a vidění výsledků
 - Copilot měl občas menší chyby v pravopisu, ale nic zásadního
 - Byla to nejzábavnější část dosavadního učení – vidět okamžitý výsledek a moct si ho ukazovat
 - **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
+- doporučuji pracovat stále ve stejném folderu - jednodušší spolupráce s copilotem
 
 ---
 
@@ -135,40 +137,39 @@ Velmi vysoká – postupné rozšiřování funkčnosti bylo motivující, prost
 **Cíl:** Logika, skóre, příprava na sdílená data  
 **Výstup:** Kvízová hra s výsledkem
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
+### ⏰ Časový pocit
+**Bez měření** – Čas nebyl sledován
 
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Velmi vysoká – kvíz je interaktivní a zábavný způsob, jak se něco naučit
 
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-```
+- Interaktivita kvízu – odpovídání na otázky je přirozeně zábavné a motivující
+- Zábavný způsob učení – kvíz jako formát je skvělý pro engagement dětí
+- Časovač přidal napětí a herní pocit
+- Historie výsledků v localStorage – vidím své předchozí pokusy i po refreshi stránky
+- Přepínání obrazovek (kvíz → výsledky) bylo logické a srozumitelné
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-```
+- Copilot začal vysvětlovat kód (useState, useEffect, JSON.parse) – pro čistý VibeCoding přístup to bylo až moc konkrétní. Záleží na tom, jestli se lektoři chtějí zaměřit na kód nebo čistě na VibeCoding
+- Copilot občas navrhuje zbytečné změny sám od sebe – děti by si měly dát pozor a pochopit, že **oni (popř. lektor) zadávají práci**, ne Copilot
+- Zvážit, jestli vysvětlování kódu je pro cílovou skupinu (13+) vhodné nebo zda radši nechat čistý VibeCoding
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-```
+- Duplikátní clicker sekce ve výsledcích – Copilot ji tam vložil dvakrát, chyba se musela ručně opravit
+- Copilot při přidávání časovače zapomněl zastavit timer po odpovězení – muselo se doplnit
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-```
+- Struktura kvízu (otázky jako pole objektů) – intuitivní
+- Logika skóre – jednoduché počítání správných odpovědí
+- localStorage ukládání – navázání na znalost z Hodiny 3
+- Celý flow od otázky po výsledek byl přehledný
 
 ### 📝 Poznámky
-```
-```
+- Od této hodiny jsem přešel na **Claude Opus 4.6** (místo výchozího modelu) – jeví se profesionálnější a přesnější, ale zároveň méně „hravý" ve srovnání s předchozím modelem. Pro děti by mohl být výchozí model zábavnější
+- **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu, lektoři toto prosím berou na lehkou váhu
+- Princip VibeCodingu se potvrzuje – stačí popsat co chci a Copilot to implementuje
+- Doporučení pro lektory: jasně definovat, kde je hranice mezi „vysvětlováním kódu" a „vibe codingem"
 
 ---
 
