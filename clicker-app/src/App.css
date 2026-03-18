@@ -1,18 +1,18 @@
 /* Clicker App CSS */
 
 :root {
-  --primary-color: #a78bfa;
-  --primary-dark: #7c3aed;
-  --accent-color: #f59e0b;
-  --success-color: #34d399;
-  --background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-  --card-bg: rgba(15, 12, 41, 0.85);
-  --card-border: rgba(167, 139, 250, 0.25);
-  --text-color: #e2e0ff;
-  --text-muted: #9b97c4;
+  --primary-color: #ffffff;
+  --primary-dark: #e0e0e0;
+  --accent-color: #cccccc;
+  --success-color: #ffffff;
+  --background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #0d0d0d 100%);
+  --card-bg: rgba(20, 20, 20, 0.95);
+  --card-border: rgba(255, 255, 255, 0.15);
+  --text-color: #ffffff;
+  --text-muted: #888888;
   --border-radius: 20px;
-  --glow-primary: rgba(167, 139, 250, 0.4);
-  --glow-accent: rgba(245, 158, 11, 0.4);
+  --glow-primary: rgba(255, 255, 255, 0.3);
+  --glow-accent: rgba(200, 200, 200, 0.3);
 }
 
 * {
@@ -23,7 +23,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #0f0c29;
+  background: #000000;
   color: var(--text-color);
 }
 
@@ -78,7 +78,7 @@ body {
 
 .clicker-card h1 {
   font-size: 2.2rem;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(135deg, #ffffff, #aaaaaa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -100,7 +100,7 @@ body {
 }
 
 .sound-toggle {
-  background: rgba(167, 139, 250, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid var(--card-border);
   border-radius: 50%;
   width: 50px;
@@ -136,8 +136,8 @@ body {
 .stats-bar {
   display: flex;
   justify-content: space-around;
-  background: rgba(167, 139, 250, 0.08);
-  border: 1px solid rgba(167, 139, 250, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   padding: 15px 20px;
   margin-bottom: 25px;
@@ -164,8 +164,8 @@ body {
 }
 
 .counter-display {
-  background: linear-gradient(135deg, rgba(124, 58, 237, 0.3), rgba(245, 158, 11, 0.2));
-  border: 1px solid rgba(167, 139, 250, 0.3);
+  background: linear-gradient(135deg, rgba(40, 40, 40, 0.5), rgba(60, 60, 60, 0.3));
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   padding: 40px;
   margin-bottom: 25px;
@@ -179,9 +179,9 @@ body {
   position: absolute;
   inset: -2px;
   border-radius: 16px;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(135deg, #ffffff, #888888);
   z-index: -1;
-  opacity: 0.15;
+  opacity: 0.1;
   animation: counterGlow 3s ease-in-out infinite alternate;
 }
 
@@ -240,8 +240,8 @@ body {
 }
 
 .click-button {
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: #000000;
   border: none;
   padding: 20px 40px;
   font-size: 1.3rem;
@@ -252,7 +252,7 @@ body {
   box-shadow: 0 0 30px var(--glow-primary), 0 10px 30px rgba(0,0,0,0.3);
   margin-bottom: 15px;
   width: 100%;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: none;
   position: relative;
   overflow: hidden;
 }
@@ -338,8 +338,8 @@ body {
 }
 
 .upgrade-button {
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #dddddd);
+  color: #000000;
   border: none;
   padding: 12px 30px;
   font-size: 1rem;
@@ -347,14 +347,14 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   font-weight: bold;
-  box-shadow: 0 8px 20px rgba(251, 191, 36, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
   width: 100%;
   margin-top: 10px;
 }
 
 .upgrade-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(251, 191, 36, 0.5);
+  box-shadow: 0 12px 30px rgba(255, 255, 255, 0.3);
 }
 
 .upgrade-button:active {
@@ -831,7 +831,7 @@ body {
   outline: none;
   transition: border-color 0.2s;
   margin-bottom: 15px;
-  background: rgba(167, 139, 250, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   color: var(--text-color);
 }
 
@@ -844,8 +844,8 @@ body {
   padding: 12px 30px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: #000000;
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
@@ -960,8 +960,8 @@ body {
 /* ==================== */
 
 .combo-indicator {
-  background: linear-gradient(135deg, #f59e0b, #ef4444);
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: #000000;
   padding: 8px 20px;
   border-radius: 20px;
   font-weight: bold;
@@ -987,7 +987,7 @@ body {
 
 .combo-bar {
   height: 100%;
-  background: linear-gradient(90deg, #fbbf24, #f59e0b, #ef4444);
+  background: linear-gradient(90deg, #ffffff, #dddddd, #aaaaaa);
   border-radius: 12px;
   transition: width 0.15s ease;
 }
@@ -1013,8 +1013,8 @@ body {
   top: 40%;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #fbbf24;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
   pointer-events: none;
   z-index: 50;
   animation: floatUp 0.8s ease-out forwards;
@@ -1080,19 +1080,19 @@ body {
 .prestige-section {
   margin-top: 20px;
   padding: 18px;
-  background: linear-gradient(135deg, rgba(251,191,36,0.15), rgba(245,158,11,0.15));
-  border: 2px solid #fbbf24;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(200,200,200,0.1));
+  border: 2px solid #ffffff;
   border-radius: 14px;
   text-align: center;
 }
 
 .prestige-section h2 {
-  color: #b45309;
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
 .prestige-section p {
-  color: #92400e;
+  color: #cccccc;
   font-size: 0.9rem;
   margin-bottom: 12px;
 }
@@ -1101,8 +1101,8 @@ body {
   padding: 12px 24px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
-  color: #78350f;
+  background: linear-gradient(135deg, #ffffff, #dddddd);
+  color: #000000;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -1124,8 +1124,8 @@ body {
   padding: 12px;
   border: none;
   border-radius: 10px;
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
-  color: #78350f;
+  background: linear-gradient(135deg, #ffffff, #dddddd);
+  color: #000000;
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
@@ -1136,7 +1136,7 @@ body {
   padding: 12px;
   border: 1px solid var(--card-border);
   border-radius: 10px;
-  background: rgba(167, 139, 250, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   color: var(--text-muted);
   font-weight: bold;
   font-size: 1rem;
@@ -1160,9 +1160,9 @@ body {
   border-radius: 12px;
   font-size: 0.8rem;
   font-weight: bold;
-  background: linear-gradient(135deg, #fef3c7, #fde68a);
-  color: #92400e;
-  border: 1px solid #fbbf24;
+  background: linear-gradient(135deg, #ffffff, #eeeeee);
+  color: #000000;
+  border: 1px solid #ffffff;
 }
 
 .biome-badge {
@@ -1170,9 +1170,9 @@ body {
   border-radius: 12px;
   font-size: 0.8rem;
   font-weight: bold;
-  background: rgba(99,102,241,0.1);
+  background: rgba(255,255,255,0.1);
   color: var(--primary-color);
-  border: 1px solid rgba(99,102,241,0.3);
+  border: 1px solid rgba(255,255,255,0.3);
 }
 
 /* ==================== */
@@ -1257,9 +1257,9 @@ body {
   flex: 1;
   min-width: 0;
   padding: 10px 6px;
-  border: 1px solid rgba(167, 139, 250, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px 10px 0 0;
-  background: rgba(167, 139, 250, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   color: var(--text-muted);
   font-size: 0.75rem;
   font-weight: 600;
@@ -1269,18 +1269,18 @@ body {
 }
 
 .tab-btn.active {
-  background: rgba(167, 139, 250, 0.15);
+  background: rgba(255, 255, 255, 0.15);
   color: var(--primary-color);
   border-color: var(--primary-color);
   border-bottom: none;
 }
 
 .tab-btn:hover:not(.active) {
-  background: rgba(167, 139, 250, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .tab-content {
-  border: 1px solid rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 0 0 12px 12px;
   padding: 15px;
   min-height: 200px;
@@ -1309,15 +1309,15 @@ body {
   align-items: center;
   gap: 10px;
   padding: 10px 12px;
-  border: 1px solid rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px;
-  background: rgba(167, 139, 250, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   transition: all 0.2s;
 }
 
 .quest-item.done {
-  border-color: rgba(52, 211, 153, 0.3);
-  background: rgba(52, 211, 153, 0.08);
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.08);
   opacity: 0.7;
 }
 
@@ -1365,7 +1365,7 @@ body {
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(15, 12, 41, 0.95);
+  background: rgba(20, 20, 20, 0.95);
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
   padding: 12px 24px;
@@ -1398,14 +1398,14 @@ body {
 }
 
 .boss-modal {
-  background: rgba(15, 12, 41, 0.95);
-  border: 2px solid #ef4444;
+  background: rgba(20, 20, 20, 0.95);
+  border: 2px solid #ffffff;
   border-radius: 20px;
   padding: 30px;
   text-align: center;
   max-width: 400px;
   width: 90%;
-  box-shadow: 0 0 40px rgba(239, 68, 68, 0.4);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
   animation: bossAppear 0.4s ease-out;
 }
 
@@ -1425,10 +1425,10 @@ body {
 }
 
 .boss-name {
-  color: #ef4444;
+  color: #ffffff;
   font-size: 1.5rem;
   margin: 10px 0;
-  text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .boss-hp-bar {
@@ -1439,12 +1439,12 @@ body {
   overflow: hidden;
   position: relative;
   margin: 12px 0;
-  border: 1px solid rgba(239, 68, 68, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .boss-hp-fill {
   height: 100%;
-  background: linear-gradient(90deg, #ef4444, #dc2626);
+  background: linear-gradient(90deg, #ffffff, #cccccc);
   border-radius: 14px;
   transition: width 0.2s ease;
 }
@@ -1472,19 +1472,19 @@ body {
   padding: 16px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(135deg, #ef4444, #dc2626);
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: #000000;
   font-size: 1.2rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.15s;
-  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
   margin-bottom: 8px;
 }
 
 .boss-attack-btn:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 30px rgba(239, 68, 68, 0.5);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 }
 
 .boss-attack-btn:active {
@@ -1494,7 +1494,7 @@ body {
 .boss-flee-btn {
   width: 100%;
   padding: 10px;
-  border: 1px solid rgba(167, 139, 250, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   background: transparent;
   color: var(--text-muted);
@@ -1504,7 +1504,7 @@ body {
 }
 
 .boss-flee-btn:hover {
-  background: rgba(167, 139, 250, 0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* ==================== */
@@ -1512,7 +1512,7 @@ body {
 /* ==================== */
 
 .minigame-modal {
-  background: rgba(15, 12, 41, 0.95);
+  background: rgba(20, 20, 20, 0.95);
   border: 2px solid var(--accent-color);
   border-radius: 20px;
   padding: 25px;
@@ -1537,9 +1537,9 @@ body {
   width: 100%;
   height: 250px;
   position: relative;
-  background: rgba(167, 139, 250, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
-  border: 1px solid rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   overflow: hidden;
 }
 
@@ -1596,9 +1596,9 @@ body {
   align-items: center;
   gap: 10px;
   padding: 10px 12px;
-  border: 1px solid rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 10px;
-  background: rgba(167, 139, 250, 0.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .enchant-emoji {
@@ -1623,8 +1623,8 @@ body {
   padding: 6px 12px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: #000000;
   font-size: 0.8rem;
   font-weight: bold;
   cursor: pointer;
@@ -1664,15 +1664,15 @@ body {
   align-items: center;
   gap: 3px;
   padding: 12px 8px;
-  border: 1px solid rgba(245, 158, 11, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 12px;
-  background: rgba(245, 158, 11, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   text-align: center;
 }
 
 .artifact-item.locked {
-  border-color: rgba(167, 139, 250, 0.1);
-  background: rgba(167, 139, 250, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
   opacity: 0.5;
 }
 
@@ -1696,9 +1696,9 @@ body {
   border-radius: 12px;
   font-size: 0.8rem;
   font-weight: bold;
-  background: rgba(245, 158, 11, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--accent-color);
-  border: 1px solid rgba(245, 158, 11, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* ==================== */
@@ -1716,9 +1716,9 @@ body {
   border-radius: 12px;
   font-size: 0.8rem;
   font-weight: bold;
-  background: rgba(52, 211, 153, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--success-color);
-  border: 1px solid rgba(52, 211, 153, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .skill-grid {
@@ -1733,21 +1733,21 @@ body {
   align-items: center;
   gap: 4px;
   padding: 12px 8px;
-  border: 1px solid rgba(167, 139, 250, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 12px;
-  background: rgba(167, 139, 250, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   text-align: center;
   transition: all 0.2s;
 }
 
 .skill-item.available {
   border-color: var(--success-color);
-  box-shadow: 0 0 10px rgba(52, 211, 153, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .skill-item.maxed {
   border-color: var(--accent-color);
-  background: rgba(245, 158, 11, 0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .skill-item.locked {
@@ -1779,8 +1779,8 @@ body {
   padding: 5px 10px;
   border: none;
   border-radius: 8px;
-  background: linear-gradient(135deg, var(--success-color), #059669);
-  color: white;
+  background: linear-gradient(135deg, #ffffff, #cccccc);
+  color: #000000;
   font-size: 0.75rem;
   font-weight: bold;
   cursor: pointer;
@@ -1817,7 +1817,7 @@ body {
   justify-content: space-between;
   padding: 6px 10px;
   border-radius: 6px;
-  background: rgba(167, 139, 250, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   font-size: 0.85rem;
 }
 
@@ -1831,7 +1831,7 @@ body {
 }
 
 .stat-toggle-btn {
-  background: rgba(167, 139, 250, 0.2);
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid var(--card-border);
   border-radius: 50%;
   width: 42px;
@@ -1845,7 +1845,7 @@ body {
 }
 
 .stat-toggle-btn:hover {
-  background: rgba(167, 139, 250, 0.3);
+  background: rgba(255, 255, 255, 0.2);
   transform: scale(1.1);
 }
 
@@ -1911,14 +1911,14 @@ body {
   font-size: 0.65rem;
   color: var(--primary-color);
   font-weight: bold;
-  background: rgba(167, 139, 250, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 1px 6px;
   border-radius: 6px;
 }
 
 /* ========== QUIZ ========== */
 .quiz-modal {
-  background: linear-gradient(135deg, rgba(30, 20, 60, 0.97), rgba(50, 30, 90, 0.97));
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.97), rgba(30, 30, 30, 0.97));
   border: 2px solid var(--primary-color);
   border-radius: 20px;
   padding: 2rem;
@@ -1926,7 +1926,7 @@ body {
   max-width: 480px;
   width: 90%;
   animation: bossAppear 0.5s ease-out;
-  box-shadow: 0 0 40px rgba(167, 139, 250, 0.4), 0 0 80px rgba(167, 139, 250, 0.15);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.1);
 }
 
 .quiz-emoji {
@@ -1938,7 +1938,7 @@ body {
   color: var(--primary-color);
   font-size: 1.5rem;
   margin: 0.5rem 0;
-  text-shadow: 0 0 15px rgba(167, 139, 250, 0.5);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
 }
 
 .quiz-question {
@@ -1962,11 +1962,11 @@ body {
 }
 
 .quiz-answer-btn {
-  background: rgba(167, 139, 250, 0.12);
-  border: 1px solid rgba(167, 139, 250, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   padding: 0.75rem 1rem;
-  color: #e2e0ff;
+  color: #ffffff;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1974,10 +1974,10 @@ body {
 }
 
 .quiz-answer-btn:hover {
-  background: rgba(167, 139, 250, 0.25);
+  background: rgba(255, 255, 255, 0.2);
   border-color: var(--primary-color);
   transform: translateX(6px);
-  box-shadow: 0 0 15px rgba(167, 139, 250, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 .quiz-answer-btn:active {
@@ -1993,9 +1993,9 @@ body {
   font-weight: bold;
   margin: 0.5rem 0;
 }
-.quiz-result-text.correct { color: #22c55e; text-shadow: 0 0 15px rgba(34, 197, 94, 0.4); }
-.quiz-result-text.wrong { color: #ef4444; text-shadow: 0 0 15px rgba(239, 68, 68, 0.4); }
-.quiz-result-text.timeout { color: var(--accent-color); text-shadow: 0 0 15px rgba(245, 158, 11, 0.4); }
+.quiz-result-text.correct { color: #ffffff; text-shadow: 0 0 15px rgba(255, 255, 255, 0.4); }
+.quiz-result-text.wrong { color: #888888; text-shadow: 0 0 15px rgba(136, 136, 136, 0.4); }
+.quiz-result-text.timeout { color: var(--accent-color); text-shadow: 0 0 15px rgba(200, 200, 200, 0.4); }
 
 .quiz-reward {
   color: var(--accent-color);
@@ -2005,7 +2005,7 @@ body {
 }
 
 .quiz-correct-answer {
-  color: #a5b4fc;
+  color: #cccccc;
   font-size: 0.95rem;
   margin: 0.5rem 0 1rem;
   opacity: 0.8;
@@ -2031,7 +2031,7 @@ body {
 /* ========== ACHIEVEMENTS ========== */
 .achievement-section h2 {
   color: var(--accent-color);
-  text-shadow: 0 0 15px rgba(245, 158, 11, 0.4);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .achievement-grid {
@@ -2053,17 +2053,17 @@ body {
 }
 
 .achievement-item.unlocked {
-  border-color: rgba(245, 158, 11, 0.3);
-  background: rgba(245, 158, 11, 0.06);
+  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .achievement-item.locked {
   opacity: 0.5;
 }
 
-.achievement-item.unlocked.rarity-rare { border-color: rgba(96, 165, 250, 0.4); background: rgba(96, 165, 250, 0.06); }
-.achievement-item.unlocked.rarity-epic { border-color: rgba(167, 139, 250, 0.4); background: rgba(167, 139, 250, 0.08); }
-.achievement-item.unlocked.rarity-legendary { border-color: rgba(245, 158, 11, 0.5); background: rgba(245, 158, 11, 0.08); box-shadow: 0 0 15px rgba(245, 158, 11, 0.15); }
+.achievement-item.unlocked.rarity-rare { border-color: rgba(200, 200, 200, 0.4); background: rgba(200, 200, 200, 0.06); }
+.achievement-item.unlocked.rarity-epic { border-color: rgba(220, 220, 220, 0.4); background: rgba(220, 220, 220, 0.08); }
+.achievement-item.unlocked.rarity-legendary { border-color: rgba(255, 255, 255, 0.5); background: rgba(255, 255, 255, 0.08); box-shadow: 0 0 15px rgba(255, 255, 255, 0.15); }
 
 .achievement-emoji {
   font-size: 1.8rem;
@@ -2079,13 +2079,13 @@ body {
 }
 
 .achievement-name {
-  color: #e2e0ff;
+  color: #ffffff;
   font-weight: 600;
   font-size: 0.95rem;
 }
 
 .achievement-desc {
-  color: #a5b4fc;
+  color: #aaaaaa;
   font-size: 0.8rem;
   opacity: 0.8;
 }
@@ -2096,9 +2096,9 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-.achievement-rarity.rare { color: #60a5fa; }
-.achievement-rarity.epic { color: #a78bfa; }
-.achievement-rarity.legendary { color: #f59e0b; }
+.achievement-rarity.rare { color: #cccccc; }
+.achievement-rarity.epic { color: #dddddd; }
+.achievement-rarity.legendary { color: #ffffff; }
 
 .achievement-check {
   font-size: 1.2rem;

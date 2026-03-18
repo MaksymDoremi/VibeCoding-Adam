@@ -27,12 +27,12 @@ const creatureShop = [
 
 // 🌍 Pozadí podle počtu stvoření
 const backgrounds = [
-  { min: 0,  name: 'Louka',    gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' },
-  { min: 3,  name: 'Les',      gradient: 'linear-gradient(135deg, #0f5132 0%, #2d6a4f 50%, #40916c 100%)' },
-  { min: 6,  name: 'Hory',     gradient: 'linear-gradient(135deg, #4a4e69 0%, #9a8c98 50%, #c9ada7 100%)' },
-  { min: 10, name: 'Vulkán',   gradient: 'linear-gradient(135deg, #6a040f 0%, #d00000 50%, #e85d04 100%)' },
-  { min: 15, name: 'Oceán',    gradient: 'linear-gradient(135deg, #023e8a 0%, #0077b6 50%, #00b4d8 100%)' },
-  { min: 20, name: 'Vesmír',   gradient: 'linear-gradient(135deg, #0d0221 0%, #1a0533 40%, #380a5e 100%)' },
+  { min: 0,  name: 'Louka',    gradient: 'linear-gradient(135deg, #000000 0%, #1a1a1a 100%)' },
+  { min: 3,  name: 'Les',      gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1f1f1f 50%, #2a2a2a 100%)' },
+  { min: 6,  name: 'Hory',     gradient: 'linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #3a3a3a 100%)' },
+  { min: 10, name: 'Vulkán',   gradient: 'linear-gradient(135deg, #0d0d0d 0%, #252525 50%, #333333 100%)' },
+  { min: 15, name: 'Oceán',    gradient: 'linear-gradient(135deg, #050505 0%, #181818 50%, #2a2a2a 100%)' },
+  { min: 20, name: 'Vesmír',   gradient: 'linear-gradient(135deg, #000000 0%, #0d0d0d 40%, #1a1a1a 100%)' },
 ]
 
 function getBackground(creatureCount) {
