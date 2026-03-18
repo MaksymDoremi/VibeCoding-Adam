@@ -238,40 +238,41 @@ Vysoká – leaderboard přidává soutěživost, vylepšování kvízu na konci
 **Cíl:** Kreativita + příprava na hru  
 **Výstup:** Rozšířená aplikace nebo prototyp hry
 
-### ⏱️ Čas
-- **Plánovaný čas:** 60 minut
-- **Reálný čas:** ___ minut
+### ⏰ Časový pocit
+**Zbyl čas nazbyt** – Volná kreativní hodina, prostor na experimentování bez tlaku
 
-### 📊 Složitost
-⭐ ⭐⭐ ⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐
+### 🎮 Zábava
+Maximální zábava – úplná svoboda v tom, co chci do hry přidat, a vidět výsledek okamžitě
 
 ### ✅ Co se mi líbilo
-```
-- 
-- 
-```
+- Kompletní kreativní svoboda – mohl jsem si vymyslet vlastní systémy (bossfighty, kvízy, achievementy)
+- Copilot zvládl i komplexní požadavky typu "přidej všechno" a generoval fungující kód
+- Iterativní vylepšování – každý nový systém se dal přidat bez rozbití toho předchozího
+- Okamžitý vizuální výsledek – dark fantasy theme vypadal skvěle
+- Super ukázková hodina – výsledná hra se dá ukazovat jako příklad toho, co VibeCoding dokáže
+- Balancování hry (ceny, passive income, combo cap) bylo zajímavé a poučné
 
 ### ❌ Co mi nechybělo / Co bych přidal/a
-```
-- 
-- 
-```
+- Tento typ hodiny (volný remix) možná ani nebude potřeba jako samostatná lekce – studenti si mohou remixovat kdykoliv sami
+- Copilot (tento model) občas psal postup a komentáře v angličtině místo v češtině – musel jsem opravovat
+- Mohlo by se ukázat, jak si takový remix naplánovat předem (prioritizace features)
 
 ### ⚠️ Problémy které jsem měl/a
-```
-- 
-- 
-```
+- Žádné zásadní problémy – vše fungovalo na první nebo druhý pokus
+- Jediný UX problém: při rychlém klikání se kvíz objevil a omylem jsem klikl na špatnou odpověď → vyřešeno přidáním 1s "Připrav se" delay
+- Model občas přepínal do angličtiny v komentářích kódu
 
 ### 💡 Co bylo srozumitelné / lehké
-```
-- 
-- 
-```
+- Všechno bylo lehké a zábavné – žádný systém nebyl problém implementovat
+- Přidávání nových features do existující aplikace je intuitivní s Copilotem
+- Balancování hry (úprava čísel, cen) je jednoduché a okamžitě viditelné
+- Celkový workflow: popsat co chci → Copilot vygeneruje → otestovat → tweaknout
 
 ### 📝 Poznámky
-```
-```
+- Výsledná hra má 12+ systémů: obchod, combo, prestige, daily reward, evoluce, bossfighty, questy, enchanty, artefakty, minihry, skill tree, kvízy, achievementy
+- Tato hodina je ideální jako showcase – ukázat studentům/rodičům, co se dá vytvořit
+- Doporučení: možná spojit s jinou hodinou jako bonus aktivitu, ne jako samostatnou lekci
+- **Důležité:** Čas jsem si nestopoval – časový pocit vychází z mého subjektivního dojmu
 
 ---
 
